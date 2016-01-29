@@ -131,7 +131,7 @@ F 1 "02-SCREW-TERM" V 10250 2800 50  0000 C CNN
 F 2 "5mm-pitch-terminal:mkds_1,5-2" H 10150 2800 50  0001 C CNN
 F 3 "" H 10150 2800 50  0000 C CNN
 	1    10150 2800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L +12V #PWR01
@@ -517,15 +517,15 @@ Wire Wire Line
 Wire Wire Line
 	9950 2750 9750 2750
 Wire Wire Line
-	9750 2750 9750 2650
+	9750 2650 9750 2750
 Wire Wire Line
-	9750 2650 9550 2650
+	9550 2650 9750 2650
 Wire Wire Line
 	9950 2850 9750 2850
 Wire Wire Line
-	9750 2850 9750 2950
+	9750 2950 9750 2850
 Wire Wire Line
-	9750 2950 9550 2950
+	9550 2950 9750 2950
 Wire Wire Line
 	9650 2450 9650 2650
 Connection ~ 9650 2650

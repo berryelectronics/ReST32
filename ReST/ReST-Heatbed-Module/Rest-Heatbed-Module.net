@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/ReST/ReST-Heatbed-Module/Rest-Heatbed-Module.sch)
-    (date "28.01.2016 00:27:47")
+    (date "28.01.2016 20:53:42")
     (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -266,7 +266,7 @@
       (node (ref P2) (pin 3)))
     (net (code 8) (name +12V)
       (node (ref F1) (pin 2))
-      (node (ref P5) (pin 1))
+      (node (ref P5) (pin 2))
       (node (ref D2) (pin 1)))
     (net (code 9) (name GND)
       (node (ref P2) (pin 7))
@@ -278,7 +278,7 @@
       (node (ref P1) (pin 1))
       (node (ref Q1) (pin 2)))
     (net (code 10) (name "Net-(D2-Pad2)")
-      (node (ref P5) (pin 2))
+      (node (ref P5) (pin 1))
       (node (ref Q2) (pin 2))
       (node (ref D2) (pin 2)))
     (net (code 11) (name "Net-(D1-Pad2)")
