@@ -1,4 +1,4 @@
-update=28.01.2016 18:55:16
+update=30.01.2016 16:31:46
 version=1
 last_client=kicad
 [pcbnew]
@@ -126,5 +126,5 @@ LibName94=ttl_ieee
 LibName95=video
 LibName96=Xicor
 LibName97=Zilog
-LibName98=C:/Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/ReST/Libs/STM32F103ZET6
-LibName99=ReST-cache
+LibName98=ReST-cache
+LibName99=C:/Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/Libs/STM32F103ZET6
