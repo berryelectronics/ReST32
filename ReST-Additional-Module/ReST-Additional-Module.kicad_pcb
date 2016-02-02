@@ -1,12 +1,12 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.1-stable)
 
   (general
-    (links 25)
-    (no_connects 2)
-    (area 0 0 0 0)
+    (links 24)
+    (no_connects 0)
+    (area 88.549999 86.149999 107.850001 125.050001)
     (thickness 1.6)
-    (drawings 7)
-    (tracks 65)
+    (drawings 8)
+    (tracks 73)
     (zones 0)
     (modules 11)
     (nets 10)
@@ -290,8 +290,7 @@
     (fp_line (start 4.064 -1.27) (end 6.604 -1.27) (layer F.SilkS) (width 0.15))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 6 +5V))
-    (pad 2 thru_hole oval (at 2.54 0 270) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 5 GND))
+    (pad 2 thru_hole oval (at 2.54 0 270) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
     (pad 3 thru_hole oval (at 0 2.54 270) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 8 /PWM-ADD))
     (pad 4 thru_hole oval (at 2.54 2.54 270) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
@@ -546,6 +545,7 @@
       (net 6 +5V))
   )
 
+  (target plus (at 88.6 125) (size 5) (width 0.1) (layer Edge.Cuts))
   (gr_line (start 88.6 125) (end 89.4 125) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 88.6 107.6) (end 88.6 125) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 107.8 125) (end 89.4 125) (angle 90) (layer Edge.Cuts) (width 0.1))
@@ -587,6 +587,14 @@
   (segment (start 99.19992 101.40008) (end 99.19992 101) (width 2) (layer F.Cu) (net 4) (tstamp 56B0EA57))
   (segment (start 99.19992 101) (end 99.19992 97.20008) (width 2) (layer F.Cu) (net 4))
   (segment (start 99.19992 97.20008) (end 99.4 97) (width 2) (layer F.Cu) (net 4) (tstamp 56B0EA53))
+  (segment (start 102.50076 115.45) (end 102.50076 114.70076) (width 0.25) (layer F.Cu) (net 5))
+  (segment (start 92 119.3) (end 93 120.3) (width 0.25) (layer B.Cu) (net 5) (tstamp 56B0EC8D))
+  (segment (start 92 115) (end 92 119.3) (width 0.25) (layer B.Cu) (net 5) (tstamp 56B0EC8C))
+  (segment (start 92.8 114.2) (end 92 115) (width 0.25) (layer B.Cu) (net 5) (tstamp 56B0EC87))
+  (segment (start 101.6 114.2) (end 92.8 114.2) (width 0.25) (layer B.Cu) (net 5) (tstamp 56B0EC83))
+  (segment (start 101.8 114) (end 101.6 114.2) (width 0.25) (layer B.Cu) (net 5) (tstamp 56B0EC82))
+  (via (at 101.8 114) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 5))
+  (segment (start 102.50076 114.70076) (end 101.8 114) (width 0.25) (layer F.Cu) (net 5) (tstamp 56B0EC7C))
   (segment (start 94.8 117.87546) (end 93.77546 117.87546) (width 0.25) (layer F.Cu) (net 6))
   (segment (start 104.8 116.9) (end 105.7 116) (width 0.25) (layer F.Cu) (net 6) (tstamp 56B0EAC7))
   (segment (start 104.2 116.9) (end 104.8 116.9) (width 0.25) (layer F.Cu) (net 6) (tstamp 56B0EAC6))
@@ -683,13 +691,6 @@
     )
     (filled_polygon
       (pts
-        (xy 106.073 122.467) (xy 106.093 122.467) (xy 106.093 123.213) (xy 106.073 123.213) (xy 106.073 123.233)
-        (xy 105.327 123.233) (xy 105.327 123.213) (xy 105.307 123.213) (xy 105.307 122.467) (xy 105.327 122.467)
-        (xy 105.327 122.447) (xy 106.073 122.447)
-      )
-    )
-    (filled_polygon
-      (pts
         (xy 100.508255 109.131744) (xy 100.525667 109.143378) (xy 100.752222 109.294757) (xy 101.04 109.352) (xy 102.042027 109.352)
         (xy 102.042027 109.50043) (xy 102.085747 109.732782) (xy 102.223067 109.946183) (xy 102.432593 110.089347) (xy 102.68131 110.139713)
         (xy 104.27897 110.139713) (xy 104.511322 110.095993) (xy 104.724723 109.958673) (xy 104.867887 109.749147) (xy 104.89933 109.593876)
@@ -726,13 +727,6 @@
     (polygon
       (pts
         (xy 88.2 85.8) (xy 108.2 85.8) (xy 108.2 125.4) (xy 88.2 125.4)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 106.073 122.467) (xy 106.093 122.467) (xy 106.093 123.213) (xy 106.073 123.213) (xy 106.073 123.233)
-        (xy 105.327 123.233) (xy 105.327 123.213) (xy 105.307 123.213) (xy 105.307 122.467) (xy 105.327 122.467)
-        (xy 105.327 122.447) (xy 106.073 122.447)
       )
     )
     (filled_polygon
