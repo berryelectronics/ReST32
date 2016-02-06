@@ -1,4 +1,4 @@
-update=30.01.2016 16:31:46
+update=06.02.2016 03:19:48
 version=1
 last_client=kicad
 [pcbnew]
@@ -128,3 +128,4 @@ LibName96=Xicor
 LibName97=Zilog
 LibName98=ReST-cache
 LibName99=C:/Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/Libs/STM32F103ZET6
+LibName100=C:/Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/Libs/small_rack-cache
