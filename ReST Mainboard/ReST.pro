@@ -1,4 +1,4 @@
-update=06.02.2016 03:19:48
+update=21.02.2016 23:22:24
 version=1
 last_client=kicad
 [pcbnew]
@@ -129,3 +129,13 @@ LibName97=Zilog
 LibName98=ReST-cache
 LibName99=C:/Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/Libs/STM32F103ZET6
 LibName100=C:/Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/Libs/small_rack-cache
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=39
