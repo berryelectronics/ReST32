@@ -182,32 +182,13 @@ F 3 "" H 3600 2650 50  0000 C CNN
 	1    3600 2650
 	-1   0    0    1   
 $EndComp
-$Comp
-L CONN_02X09 P1
-U 1 1 56B9E993
-P 3950 3150
-F 0 "P1" H 3950 3650 50  0000 C CNN
-F 1 "CONN_02X09" V 3950 3150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x09" H 3950 1950 39  0001 C CNN
-F 3 "" H 3950 1950 50  0000 C CNN
-	1    3950 3150
-	1    0    0    -1  
-$EndComp
-Text Label 3700 3550 2    39   ~ 0
-PWM-ADD0
-Text Label 3700 3450 2    39   ~ 0
-PWM-ADD2
 Text Label 3700 3350 2    39   ~ 0
-PWM-ADD4
+PWM-ADD0
 Text Label 3700 3250 2    39   ~ 0
-PWM-ADD6
+PWM-ADD2
 Text Label 4200 3250 0    39   ~ 0
-PWM-ADD7
-Text Label 4200 3350 0    39   ~ 0
-PWM-ADD5
-Text Label 4200 3450 0    39   ~ 0
 PWM-ADD3
-Text Label 4200 3550 0    39   ~ 0
+Text Label 4200 3350 0    39   ~ 0
 PWM-ADD1
 $Comp
 L ULN2803 U1
@@ -220,22 +201,14 @@ F 3 "" H 6350 2950 39  0000 C CNN
 	1    6350 2950
 	1    0    0    -1  
 $EndComp
-Text Label 5550 2600 2    39   ~ 0
+Text Label 5450 2600 2    39   ~ 0
 PWM-ADD0
-Text Label 5550 2800 2    39   ~ 0
+Text Label 5450 3000 2    39   ~ 0
 PWM-ADD2
-Text Label 5550 3000 2    39   ~ 0
-PWM-ADD4
-Text Label 5550 3200 2    39   ~ 0
-PWM-ADD6
-Text Label 5550 2700 2    39   ~ 0
+Text Label 5450 2800 2    39   ~ 0
 PWM-ADD1
-Text Label 5550 2900 2    39   ~ 0
+Text Label 5450 3200 2    39   ~ 0
 PWM-ADD3
-Text Label 5550 3100 2    39   ~ 0
-PWM-ADD5
-Text Label 5550 3300 2    39   ~ 0
-PWM-ADD7
 $Comp
 L CONN_01X08 P2
 U 1 1 56B9EDB9
@@ -245,35 +218,16 @@ F 1 "CONN_01X08" V 5550 4800 50  0000 C CNN
 F 2 "2:mpt_0,5%2f8-2,54" H 5450 4800 50  0001 C CNN
 F 3 "" H 5450 4800 50  0000 C CNN
 	1    5450 4800
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
-$Comp
-L CONN_02X08 P3
-U 1 1 56B9EDEC
-P 6950 4800
-F 0 "P3" H 6950 5250 50  0000 C CNN
-F 1 "CONN_02X08" V 6950 4800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x08" H 6950 3600 50  0001 C CNN
-F 3 "" H 6950 3600 50  0000 C CNN
-	1    6950 4800
-	1    0    0    -1  
-$EndComp
-Text Label 7150 2600 0    39   ~ 0
+Text Label 7250 2600 0    39   ~ 0
 PWM-OUT0
-Text Label 7150 2700 0    39   ~ 0
+Text Label 7250 2800 0    39   ~ 0
 PWM-OUT1
-Text Label 7150 2800 0    39   ~ 0
+Text Label 7250 3000 0    39   ~ 0
 PWM-OUT2
-Text Label 7150 2900 0    39   ~ 0
+Text Label 7250 3200 0    39   ~ 0
 PWM-OUT3
-Text Label 7150 3000 0    39   ~ 0
-PWM-OUT4
-Text Label 7150 3100 0    39   ~ 0
-PWM-OUT5
-Text Label 7150 3200 0    39   ~ 0
-PWM-OUT6
-Text Label 7150 3300 0    39   ~ 0
-PWM-OUT7
 Text Label 7200 4450 0    39   ~ 0
 PWM-OUT0
 Text Label 7200 4550 0    39   ~ 0
@@ -282,14 +236,6 @@ Text Label 7200 4650 0    39   ~ 0
 PWM-OUT2
 Text Label 7200 4750 0    39   ~ 0
 PWM-OUT3
-Text Label 7200 4850 0    39   ~ 0
-PWM-OUT4
-Text Label 7200 4950 0    39   ~ 0
-PWM-OUT5
-Text Label 7200 5050 0    39   ~ 0
-PWM-OUT6
-Text Label 7200 5150 0    39   ~ 0
-PWM-OUT7
 $Comp
 L +12V #PWR07
 U 1 1 56B9F0CD
@@ -304,11 +250,11 @@ $EndComp
 Text Label 5650 4450 0    39   ~ 0
 PWM-OUT0
 Text Label 5650 4650 0    39   ~ 0
-PWM-OUT2
+PWM-OUT1
 Text Label 5650 4850 0    39   ~ 0
-PWM-OUT4
+PWM-OUT2
 Text Label 5650 5050 0    39   ~ 0
-PWM-OUT6
+PWM-OUT3
 $Comp
 L +12V #PWR08
 U 1 1 56B9F378
@@ -346,40 +292,10 @@ F 3 "" H 8000 3300 50  0000 C CNN
 	1    8000 3300
 	-1   0    0    1   
 $EndComp
-$Comp
-L CONN_01X02 P6
-U 1 1 56B9F6DD
-P 8000 3850
-F 0 "P6" H 8000 4000 50  0000 C CNN
-F 1 "CONN_01X02" V 8100 3850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8000 3850 50  0001 C CNN
-F 3 "" H 8000 3850 50  0000 C CNN
-	1    8000 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X02 P7
-U 1 1 56B9F745
-P 8000 4400
-F 0 "P7" H 8000 4550 50  0000 C CNN
-F 1 "CONN_01X02" V 8100 4400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8000 4400 50  0001 C CNN
-F 3 "" H 8000 4400 50  0000 C CNN
-	1    8000 4400
-	-1   0    0    1   
-$EndComp
 Text Label 8200 3250 0    39   ~ 0
 PWM-OUT2
 Text Label 8200 3350 0    39   ~ 0
 PWM-OUT3
-Text Label 8200 3800 0    39   ~ 0
-PWM-OUT4
-Text Label 8200 3900 0    39   ~ 0
-PWM-OUT5
-Text Label 8200 4350 0    39   ~ 0
-PWM-OUT6
-Text Label 8200 4450 0    39   ~ 0
-PWM-OUT7
 $Comp
 L GND #PWR09
 U 1 1 56B9F8E5
@@ -457,9 +373,7 @@ Wire Notes Line
 Wire Wire Line
 	6700 4450 6600 4450
 Wire Wire Line
-	6600 4350 6600 5150
-Wire Wire Line
-	6600 5150 6700 5150
+	6600 4350 6600 4750
 Connection ~ 6600 4450
 Wire Wire Line
 	6600 4550 6700 4550
@@ -469,16 +383,6 @@ Wire Wire Line
 Connection ~ 6600 4650
 Wire Wire Line
 	6600 4750 6700 4750
-Connection ~ 6600 4750
-Wire Wire Line
-	6700 4850 6600 4850
-Connection ~ 6600 4850
-Wire Wire Line
-	6700 4950 6600 4950
-Connection ~ 6600 4950
-Wire Wire Line
-	6600 5050 6700 5050
-Connection ~ 6600 5050
 Wire Wire Line
 	6100 5150 5650 5150
 Wire Wire Line
@@ -526,4 +430,74 @@ Text Notes 7800 2400 0    39   ~ 0
 Output Jumper. Short for higher Amps
 Text Notes 5200 4050 0    39   ~ 0
 Screw Terminal
+$Comp
+L CONN_02X07 P1
+U 1 1 56C9A3DE
+P 3950 3050
+F 0 "P1" H 3950 3450 50  0000 C CNN
+F 1 "CONN_02X07" V 3950 3050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x07" H 3950 1850 50  0001 C CNN
+F 3 "" H 3950 1850 50  0000 C CNN
+	1    3950 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2600 5550 2600
+Wire Wire Line
+	5450 2600 5450 2700
+Wire Wire Line
+	5450 2700 5550 2700
+Wire Wire Line
+	5450 2800 5550 2800
+Wire Wire Line
+	5450 2800 5450 2900
+Wire Wire Line
+	5450 2900 5550 2900
+Wire Wire Line
+	5450 3000 5550 3000
+Wire Wire Line
+	5450 3000 5450 3100
+Wire Wire Line
+	5450 3100 5550 3100
+Wire Wire Line
+	5450 3200 5550 3200
+Wire Wire Line
+	5450 3200 5450 3300
+Wire Wire Line
+	5450 3300 5550 3300
+Wire Wire Line
+	7250 2600 7150 2600
+Wire Wire Line
+	7150 2700 7250 2700
+Wire Wire Line
+	7250 2700 7250 2600
+Wire Wire Line
+	7250 2800 7250 2900
+Wire Wire Line
+	7250 2900 7150 2900
+Wire Wire Line
+	7250 2800 7150 2800
+Wire Wire Line
+	7250 3000 7250 3100
+Wire Wire Line
+	7250 3100 7150 3100
+Wire Wire Line
+	7250 3000 7150 3000
+Wire Wire Line
+	7250 3200 7150 3200
+Wire Wire Line
+	7250 3200 7250 3300
+Wire Wire Line
+	7250 3300 7150 3300
+$Comp
+L CONN_02X04 P3
+U 1 1 56C9B25D
+P 6950 4600
+F 0 "P3" H 6950 4850 50  0000 C CNN
+F 1 "CONN_02X04" H 6950 4350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04" H 6950 3400 50  0001 C CNN
+F 3 "" H 6950 3400 50  0000 C CNN
+	1    6950 4600
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
