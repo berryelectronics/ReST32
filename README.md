@@ -33,3 +33,7 @@ Images:
 ![alt tag](https://raw.githubusercontent.com/berryelectronics/ReST32/master/ReST-Heater-Module/Preview/PNG/PCB%203D%20Top.png)
 ![alt tag](https://raw.githubusercontent.com/berryelectronics/ReST32/master/ReST-Stepper-Module/Preview/PNG/PCB%203D%20Top.png)
 ![alt tag](https://raw.githubusercontent.com/berryelectronics/ReST32/master/ReST-Additional-Module/Preview/PNG/PCB%203D%20Top.png)
+
+Sources for Symbols, Footprints and 3D Symbols:
+
+WIP
