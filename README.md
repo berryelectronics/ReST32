@@ -1,4 +1,4 @@
-# ReST32
+# ReST32 - Modular, Open Source 3D Printer Controller
 A modular 3D Printer Controller based on the STM32Duino project
 
 This controller is using extra modules for the Heated Bed, Heaters, Extra Extruder Steppers aswell as extra PWM Output for fans and LED's. If you feel to upgrade your printer, just get the module for it. If you manage to damage the MosFET, just swap it out! This brings a low cost base platform, which you can upgrade freely.
