@@ -104,9 +104,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "ReST32 Main Controller"
-Date ""
-Rev "0.9"
+Title "ReST32 Main "
+Date "2016-02-27"
+Rev "Rev. A"
 Comp "Matthias Nowak"
 Comment1 ""
 Comment2 ""
@@ -4036,9 +4036,9 @@ Connection ~ 15350 5750
 Wire Wire Line
 	15700 6150 15800 6150
 Wire Wire Line
-	15800 6150 15800 6350
+	15800 6350 15800 6150
 Wire Wire Line
-	15800 6350 15100 6350
+	15100 6350 15800 6350
 Wire Wire Line
 	15550 6350 15550 6450
 Wire Wire Line
