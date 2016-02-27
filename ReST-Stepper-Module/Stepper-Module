@@ -1,0 +1,8 @@
+Qty,partname,description,lib
+0,"CONN_01X04","Connector 01x04","conn"
+0,"CONN_02X03","Connector 02x03","conn"
+0,"CONN_02X04","Connector 02x04","conn"
+0,"CONN_02X09","Connector 02x09","conn"
+0,"CP1","Polarised capacitor","device"
+0,"POLOLU_A4988","","ReST-Library"
+0,"R_Small","Resistor","device"

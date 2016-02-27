@@ -33,4 +33,9 @@
     (scale (xyz 0.95 0.95 0.95))
     (rotate (xyz 0 0 0))
   )
+  (model ../../../../../../Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/3D-Models/smd_diode/do214ac.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
