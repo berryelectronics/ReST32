@@ -3,9 +3,9 @@
   (general
     (links 407)
     (no_connects 0)
-    (area 84.000001 46.15 213.214286 164.800001)
+    (area 99.444999 55.444999 199.455001 155.455001)
     (thickness 1.6)
-    (drawings 8)
+    (drawings 12)
     (tracks 2285)
     (zones 0)
     (modules 104)
@@ -44,7 +44,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
     (user_trace_width 0.5)
@@ -58,7 +58,7 @@
     (zone_45_only no)
     (trace_min 0.1524)
     (segment_width 0.2)
-    (edge_width 0.15)
+    (edge_width 0.01)
     (via_size 0.6)
     (via_drill 0.4)
     (via_min_size 0.16)
@@ -82,6 +82,7 @@
     (pad_drill 3.5)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
+    (grid_origin 99.45 155.45)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x01030_80000001)
@@ -5065,6 +5066,14 @@
     (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.5) (layers *.Cu *.Mask F.SilkS))
   )
 
+  (gr_arc (start 100.45 154.45) (end 100.45 155.45) (angle 90) (layer Edge.Cuts) (width 0.01))
+  (gr_arc (start 100.45 56.45) (end 99.45 56.45) (angle 90) (layer Edge.Cuts) (width 0.01))
+  (gr_arc (start 198.45 56.45) (end 198.45 55.45) (angle 90) (layer Edge.Cuts) (width 0.01))
+  (gr_line (start 100.45 155.45) (end 198.45 155.45) (angle 90) (layer Edge.Cuts) (width 0.01))
+  (gr_line (start 99.45 56.45) (end 99.45 154.45) (angle 90) (layer Edge.Cuts) (width 0.01))
+  (gr_line (start 198.45 55.45) (end 100.45 55.45) (angle 90) (layer Edge.Cuts) (width 0.01))
+  (gr_line (start 199.45 154.45) (end 199.45 56.45) (angle 90) (layer Edge.Cuts) (width 0.01))
+  (gr_arc (start 198.45 154.45) (end 199.45 154.45) (angle 90) (layer Edge.Cuts) (width 0.01))
   (dimension 67 (width 0.3) (layer Eco2.User)
     (gr_text "67,000 mm" (at 153.5 47.65) (layer Eco2.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
@@ -5095,10 +5104,6 @@
   (gr_text "ReST32 Main\nRev. A | TEST" (at 123.85 66.95) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.4)))
   )
-  (gr_line (start 99.45 55.45) (end 99.45 155.45) (angle 90) (layer Edge.Cuts) (width 0.01))
-  (gr_line (start 199.45 55.45) (end 99.45 55.45) (angle 90) (layer Edge.Cuts) (width 0.01))
-  (gr_line (start 199.45 155.45) (end 199.45 55.45) (angle 90) (layer Edge.Cuts) (width 0.01))
-  (gr_line (start 99.45 155.45) (end 199.45 155.45) (angle 90) (layer Edge.Cuts) (width 0.01))
 
   (segment (start 111.35 112.15) (end 110.05 113.45) (width 1) (layer F.Cu) (net 1))
   (segment (start 110.05 113.45) (end 110.05 114.75) (width 1) (layer F.Cu) (net 1) (tstamp 56D0F7A2))
