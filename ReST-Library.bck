@@ -5,9 +5,4 @@ D SD Card Reader
 K CONN SD
 $ENDCMP
 #
-$CMP uSD_Card
-D SD Card Reader
-K CONN SD
-$ENDCMP
-#
 #End Doc Library

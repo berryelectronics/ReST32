@@ -1,4 +1,4 @@
-update=27.02.2016 13:14:27
+update=01.03.2016 18:34:47
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=39
 [eeschema]
 version=1
 LibDir=
@@ -128,14 +138,3 @@ LibName96=Xicor
 LibName97=Zilog
 LibName98=ReST-cache
 LibName99=C:/Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/Libs/STM32F103ZET6
-LibName100=C:/Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/Libs/small_rack-cache
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=39

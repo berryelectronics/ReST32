@@ -1,4 +1,4 @@
-update=27.02.2016 13:54:10
+update=29.02.2016 22:17:24
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -126,14 +136,4 @@ LibName94=ttl_ieee
 LibName95=video
 LibName96=Xicor
 LibName97=Zilog
-LibName98=C:/Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/Libs/Dispositivos_I2C
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName98=C:/Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/ReST-Library
