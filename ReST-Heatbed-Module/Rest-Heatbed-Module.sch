@@ -37,7 +37,6 @@ LIBS:brooktre
 LIBS:cmos_ieee
 LIBS:dc-dc
 LIBS:diode
-LIBS:dp_devices
 LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
@@ -58,27 +57,8 @@ LIBS:motor_drivers
 LIBS:msp430
 LIBS:nordicsemi
 LIBS:nxp_armmcu
-LIBS:ok-74logic
-LIBS:ok-con-generic
-LIBS:ok-diodes
-LIBS:ok-generic
-LIBS:ok-ic-analog
-LIBS:ok-ic-atmel
-LIBS:ok-ic-com
-LIBS:ok-ic-memory
-LIBS:ok-ic-power
-LIBS:ok-ic-special
-LIBS:ok-ic-stm32
-LIBS:ok-jacks
-LIBS:ok-opto
-LIBS:ok-power
-LIBS:ok-relay
-LIBS:ok-switches
-LIBS:ok-transformers
-LIBS:ok-transistors
 LIBS:onsemi
 LIBS:Oscillators
-LIBS:pololu_a4988
 LIBS:Power_Management
 LIBS:powerint
 LIBS:pspice
@@ -161,7 +141,7 @@ U 1 1 56A698F8
 P 8250 3850
 F 0 "Q1" H 8550 3900 50  0000 R CNN
 F 1 "Q_BSH105" H 8900 3800 50  0000 R CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8450 3950 50  0001 C CNN
+F 2 "ReST-Library:SOT-23" H 8450 3950 50  0001 C CNN
 F 3 "" H 8250 3850 50  0000 C CNN
 	1    8250 3850
 	1    0    0    -1  

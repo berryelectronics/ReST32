@@ -102,10 +102,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "ReST32 Heatbed Module"
+Date "2016-02-27"
+Rev "Rev. A"
+Comp "Matthias Nowak"
 Comment1 ""
 Comment2 ""
 Comment3 ""
