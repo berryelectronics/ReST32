@@ -1735,9 +1735,9 @@ Text Label 5700 6650 0    39   ~ 0
 I2C-SCL
 Text Label 5700 6750 0    39   ~ 0
 I2C-SDA
-Text Label 15200 1650 0    39   ~ 0
-PWM-ADD0
 Text Label 15200 1550 0    39   ~ 0
+PWM-ADD0
+Text Label 15200 1650 0    39   ~ 0
 PWM-ADD2
 Text Label 14600 1550 2    39   ~ 0
 PWM-ADD3

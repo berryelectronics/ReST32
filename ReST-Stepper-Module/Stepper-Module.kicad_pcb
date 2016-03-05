@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.1-stable)
 
   (general
-    (links 63)
+    (links 75)
     (no_connects 0)
-    (area 84 59.2 165.800001 128.400001)
+    (area 102.394999 77.994999 148.405001 110.805001)
     (thickness 1.6)
     (drawings 9)
     (tracks 205)
     (zones 0)
-    (modules 16)
+    (modules 28)
     (nets 26)
   )
 
@@ -63,8 +63,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 5 5)
-    (pad_drill 3.5)
+    (pad_size 0.6 0.6)
+    (pad_drill 0.4)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
@@ -154,6 +154,138 @@
     (add_net "Net-(P7-Pad5)")
     (add_net "Net-(U1-Pad13)")
     (add_net "Net-(U2-Pad13)")
+  )
+
+  (module ReST-Library:VIA-0.6mm (layer F.Cu) (tedit 56DB62B2) (tstamp 56DB674D)
+    (at 146.5 81.5)
+    (fp_text reference 632 (at 0 3.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 -3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module ReST-Library:VIA-0.6mm (layer F.Cu) (tedit 56DB62B2) (tstamp 56DB6749)
+    (at 145 81.5)
+    (fp_text reference 622 (at 0 3.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 -3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module ReST-Library:VIA-0.6mm (layer F.Cu) (tedit 56DB62B2) (tstamp 56DB6745)
+    (at 143.5 81.5)
+    (fp_text reference 612 (at 0 3.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 -3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module ReST-Library:VIA-0.6mm (layer F.Cu) (tedit 56DB62B2) (tstamp 56DB6741)
+    (at 146.5 80)
+    (fp_text reference 631 (at 0 3.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 -3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module ReST-Library:VIA-0.6mm (layer F.Cu) (tedit 56DB62B2) (tstamp 56DB673D)
+    (at 145 80)
+    (fp_text reference 621 (at 0 3.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 -3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module ReST-Library:VIA-0.6mm (layer F.Cu) (tedit 56DB62B2) (tstamp 56DB6734)
+    (at 143.5 80)
+    (fp_text reference 611 (at 0 3.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 -3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module ReST-Library:VIA-0.6mm (layer F.Cu) (tedit 56DB62B2) (tstamp 56DB66B6)
+    (at 129 87)
+    (fp_text reference 61 (at 0 3.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 -3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module ReST-Library:VIA-0.6mm (layer F.Cu) (tedit 56DB62B2) (tstamp 56DB66B2)
+    (at 127.5 87)
+    (fp_text reference 51 (at 0 3.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 -3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module ReST-Library:VIA-0.6mm (layer F.Cu) (tedit 56DB62B2) (tstamp 56DB66AE)
+    (at 126 87)
+    (fp_text reference 41 (at 0 3.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 -3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module ReST-Library:VIA-0.6mm (layer F.Cu) (tedit 56DB62B2) (tstamp 56DB66AA)
+    (at 124.5 87)
+    (fp_text reference 31 (at 0 3.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 -3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module ReST-Library:VIA-0.6mm (layer F.Cu) (tedit 56DB62B2) (tstamp 56DB66A6)
+    (at 123 87)
+    (fp_text reference 21 (at 0 3.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 -3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
   )
 
   (module Pin_Headers:Pin_Header_Angled_2x10 (layer F.Cu) (tedit 0) (tstamp 56CE1AE4)
@@ -1263,6 +1395,18 @@
       (net 1 +12V))
     (pad 2 smd rect (at 2.4511 0) (size 3.0988 0.89916) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
+  )
+
+  (module ReST-Library:VIA-0.6mm (layer F.Cu) (tedit 56DB62B2) (tstamp 56DB660B)
+    (at 121.5 87)
+    (fp_text reference 11 (at 0 3.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 -3) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
   )
 
   (gr_arc (start 102.9 78.5) (end 102.4 78.5) (angle 90) (layer Edge.Cuts) (width 0.01))
