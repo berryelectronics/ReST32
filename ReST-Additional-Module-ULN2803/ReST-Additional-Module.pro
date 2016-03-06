@@ -1,4 +1,4 @@
-update=05.03.2016 01:07:54
+update=06.03.2016 19:12:40
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=../Libs
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -116,4 +116,3 @@ LibName74=ttl_ieee
 LibName75=video
 LibName76=Xicor
 LibName77=Zilog
-LibName78=C:/Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/ReST-Library

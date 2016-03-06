@@ -1,4 +1,4 @@
-update=05.03.2016 00:49:54
+update=06.03.2016 19:13:30
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -37,7 +35,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=../Libs
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -116,3 +114,5 @@ LibName74=ttl_ieee
 LibName75=video
 LibName76=Xicor
 LibName77=Zilog
+[general]
+version=1

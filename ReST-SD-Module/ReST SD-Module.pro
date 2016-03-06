@@ -1,4 +1,4 @@
-update=01.03.2016 21:59:04
+update=06.03.2016 19:14:27
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../Libs
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,4 +58,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/ReST-Library

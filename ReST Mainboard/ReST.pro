@@ -1,4 +1,4 @@
-update=04.03.2016 22:49:50
+update=06.03.2016 18:44:57
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -35,9 +33,11 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=39
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../Libs
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -117,4 +117,3 @@ LibName75=video
 LibName76=Xicor
 LibName77=Zilog
 LibName78=ReST-cache
-LibName79=C:/Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/Libs/STM32F103ZET6
