@@ -52,7 +52,7 @@ F 1 "CONN_02X07" V 1300 1550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_2x07" H 1300 350 50  0001 C CNN
 F 3 "" H 1300 350 50  0000 C CNN
 	1    1300 1550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_01X08 P2
@@ -60,7 +60,7 @@ U 1 1 56DAB1DA
 P 1350 2850
 F 0 "P2" H 1350 3300 50  0000 C CNN
 F 1 "CONN_01X08" V 1450 2850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x08" H 1350 2850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 1350 2850 50  0001 C CNN
 F 3 "" H 1350 2850 50  0000 C CNN
 	1    1350 2850
 	1    0    0    -1  
@@ -153,13 +153,13 @@ F 3 "" H 3100 2500 50  0000 C CNN
 	1    3100 2500
 	1    0    0    -1  
 $EndComp
-Text Label 1550 1750 0    39   ~ 0
-PWM-ADD3
-Text Label 1550 1850 0    39   ~ 0
-PWM-ADD1
 Text Label 1050 1750 2    39   ~ 0
-PWM-ADD2
+PWM-ADD3
 Text Label 1050 1850 2    39   ~ 0
+PWM-ADD1
+Text Label 1550 1750 0    39   ~ 0
+PWM-ADD2
+Text Label 1550 1850 0    39   ~ 0
 PWM-ADD0
 $Comp
 L R_Small R1
@@ -172,7 +172,7 @@ F 3 "" H 2900 2300 50  0000 C CNN
 	1    2900 2300
 	0    -1   -1   0   
 $EndComp
-Text Label 2700 2300 2    39   ~ 0
+Text Label 2700 3750 2    39   ~ 0
 PWM-ADD0
 Text Label 3500 2000 2    39   ~ 0
 PWM-OUT0
@@ -220,7 +220,7 @@ F 3 "" H 2900 3750 50  0000 C CNN
 	1    2900 3750
 	0    -1   -1   0   
 $EndComp
-Text Label 2700 3750 2    39   ~ 0
+Text Label 4450 2300 2    39   ~ 0
 PWM-ADD1
 Text Label 3500 3450 2    39   ~ 0
 PWM-OUT1
@@ -268,7 +268,7 @@ F 3 "" H 4650 2300 50  0000 C CNN
 	1    4650 2300
 	0    -1   -1   0   
 $EndComp
-Text Label 4450 2300 2    39   ~ 0
+Text Label 2700 2300 2    39   ~ 0
 PWM-ADD2
 Text Label 5250 2000 2    39   ~ 0
 PWM-OUT2
@@ -331,13 +331,13 @@ F 3 "" H 5250 4250 50  0000 C CNN
 	1    5250 4250
 	1    0    0    -1  
 $EndComp
-Text Label 1050 2600 2    39   ~ 0
-PWM-OUT0
 Text Label 1050 2800 2    39   ~ 0
+PWM-OUT0
+Text Label 1050 3200 2    39   ~ 0
 PWM-OUT1
 Text Label 1050 3000 2    39   ~ 0
 PWM-OUT2
-Text Label 1050 3200 2    39   ~ 0
+Text Label 1050 2600 2    39   ~ 0
 PWM-OUT3
 $Comp
 L +12V #PWR011
