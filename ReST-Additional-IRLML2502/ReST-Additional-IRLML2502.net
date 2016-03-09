@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\Matjas\Documents\Git\RepRapSTM32duinoDriver\ReST-Additional-IRLML2502\ReST-Additional-IRLML2502.sch)
-    (date "05.03.2016 12:18:11")
+    (source C:/Users/Matjas/Documents/Git/RepRapSTM32duinoDriver/ReST-Additional-IRLML2502/ReST-Additional-IRLML2502.sch)
+    (date "08.03.2016 20:39:18")
     (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -192,10 +192,10 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib")))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
   (nets
     (net (code 1) (name "Net-(Q1-Pad1)")
       (node (ref Q1) (pin 1))

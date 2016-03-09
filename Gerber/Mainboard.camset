@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+<CAMsetup>
+	<thisfile>C:\Users\Matjas\Documents\Git\RepRapSTM32duinoDriver\Gerber\Mainboard.camset</thisfile>
+	<morelayertypes>
+	</morelayertypes>
+	<usecolors>
+		<mixer>0.000</mixer>
+		<object type="Plated H. In">00222222</object>
+		<object type="Plated H. Out">00000000</object>
+		<object type="Edge In">009900D0</object>
+		<object type="Edge Out">00684475</object>
+		<object type="Volume">EF000000</object>
+		<object type="Background">006979A6</object>
+		<layer type="PasteMask">00CDCDCD</layer>
+		<layer type="Silkscreen">00D0D0D0</layer>
+		<layer type="SolderMask">DF000000</layer>
+		<layer type="Copper">00B4B8B0</layer>
+		<layer type="Core">00000000</layer>
+		<layer type="Prepreg">00000000</layer>
+		<layer type="BoardOutline">00000000</layer>
+	</usecolors>
+	<boardlayers>
+		<layer type="Silkscreen" H="35" Er="0.000" color="00D0D0D0">
+			<filename>C:\Users\Matjas\Documents\Git\RepRapSTM32duinoDriver\Gerber\Mainboard\ReST-F.SilkS.gto</filename>
+			<filedisp>ReST-F.SilkS.gto</filedisp>
+		</layer>
+		<layer type="SolderMask" H="35" Er="0.000" color="DF330055">
+			<filename>C:\Users\Matjas\Documents\Git\RepRapSTM32duinoDriver\Gerber\Mainboard\ReST-F.Mask.gts</filename>
+			<filedisp>ReST-F.Mask.gts</filedisp>
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="00B08782">
+			<filename>C:\Users\Matjas\Documents\Git\RepRapSTM32duinoDriver\Gerber\Mainboard\ReST-F.Cu.gtl</filename>
+			<filedisp>ReST-F.Cu.gtl</filedisp>
+		</layer>
+		<layer type="Prepreg" H="1390" Er="0.000">
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="00B08782">
+			<filename>C:\Users\Matjas\Documents\Git\RepRapSTM32duinoDriver\Gerber\Mainboard\ReST-B.Cu.gbl</filename>
+			<filedisp>ReST-B.Cu.gbl</filedisp>
+		</layer>
+		<layer type="SolderMask" H="35" Er="0.000" color="DF330055">
+			<filename>C:\Users\Matjas\Documents\Git\RepRapSTM32duinoDriver\Gerber\Mainboard\ReST-B.Mask.gbs</filename>
+			<filedisp>ReST-B.Mask.gbs</filedisp>
+		</layer>
+		<layer type="Silkscreen" H="35" Er="0.000" color="00D0D0D0">
+			<filename>C:\Users\Matjas\Documents\Git\RepRapSTM32duinoDriver\Gerber\Mainboard\ReST-B.SilkS.gbo</filename>
+			<filedisp>ReST-B.SilkS.gbo</filedisp>
+		</layer>
+		<layer type="BoardOutline" H="1600">
+		</layer>
+	</boardlayers>
+
+	<boarddrillplates>
+		<drillplate from="top" to="btm" plated="yes">
+			<filename>C:\Users\Matjas\Documents\Git\RepRapSTM32duinoDriver\Gerber\Mainboard\ReST.drl</filename>
+			<filedisp>ReST.drl</filedisp>
+		</drillplate>
+	</boarddrillplates>
+
+	<ipc356>
+		<filename>C:\Users\Matjas\Documents\Git\RepRapSTM32duinoDriver\Gerber\Mainboard\ReST.d356</filename>
+		<filedisp>ReST.d356</filedisp>
+	</ipc356>
+
+	<GerberSetup Incremental='no' OmitTrailingZeros='no' Milimeters='no' Len1='2' Len2='3'/>
+	<NCDSetup Guess='yes' Incremental='no' OmitTrailingZeros='no' Units='DefaultInch' Len1='2' Len2='3'/>
+	<IPC356Setup AutoUnits='1' AutoMagnitude='1' LongPinID='yes' CpyFromDrill='yes'/>
+	<BoardOutlineDrawing srctype='1' trackwidthMin='0.004' trackwidthSlopStart='0.01' trackwidthMetaTrsh='0.012'/>
+	<IdentifyOutline mode='0' removeoutside='yes' horizMargin='0' vertMargin='0' brushBlob='1' />
+	<ComponentList>
+		<c RefID="F1" side="top"/>
+		<c RefID="P1" side="top"/>
+		<c RefID="P2" side="top"/>
+		<c RefID="P3" side="top"/>
+		<c RefID="P4" side="top"/>
+		<c RefID="P6" side="top"/>
+		<c RefID="P7" side="top"/>
+		<c RefID="P8" side="top"/>
+		<c RefID="P9" side="top"/>
+		<c RefID="P10" side="top"/>
+		<c RefID="P12" side="top"/>
+		<c RefID="P13" side="top"/>
+		<c RefID="P14" side="top"/>
+		<c RefID="P15" side="top"/>
+		<c RefID="P16" side="top"/>
+		<c RefID="P17" side="top"/>
+		<c RefID="P18" side="top"/>
+		<c RefID="P19" side="top"/>
+		<c RefID="P20" side="top"/>
+		<c RefID="P21" side="top"/>
+		<c RefID="P22" side="top"/>
+		<c RefID="P23" side="top"/>
+		<c RefID="P24" side="top"/>
+		<c RefID="P25" side="top"/>
+		<c RefID="P26" side="top"/>
+		<c RefID="P27" side="top"/>
+		<c RefID="P28" side="top"/>
+		<c RefID="P30" side="top"/>
+		<c RefID="P32" side="top"/>
+		<c RefID="P34" side="top"/>
+		<c RefID="P35" side="top"/>
+		<c RefID="P36" side="top"/>
+		<c RefID="P37" side="top"/>
+		<c RefID="P38" side="top"/>
+		<c RefID="P39" side="top"/>
+		<c RefID="P40" side="top"/>
+		<c RefID="P41" side="top"/>
+		<c RefID="P42" side="top"/>
+		<c RefID="P43" side="top"/>
+		<c RefID="P44" side="top"/>
+		<c RefID="P45" side="top"/>
+		<c RefID="P46" side="top"/>
+		<c RefID="SW1" side="top"/>
+		<c RefID="U4" side="top"/>
+		<c RefID="U5" side="top"/>
+		<c RefID="U6" side="top"/>
+		<c RefID="U7" side="top"/>
+		<c RefID="U8" side="top"/>
+	</ComponentList>
+</CAMsetup>
