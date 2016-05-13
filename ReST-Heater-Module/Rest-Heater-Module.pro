@@ -1,4 +1,4 @@
-update=07.03.2016 22:20:36
+update=16.04.2016 01:42:17
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -116,3 +114,5 @@ LibName74=ttl_ieee
 LibName75=video
 LibName76=Xicor
 LibName77=Zilog
+[general]
+version=1

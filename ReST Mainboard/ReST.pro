@@ -1,4 +1,4 @@
-update=06.03.2016 18:44:57
+update=16.04.2016 01:56:07
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,8 +33,6 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=39
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../Libs
@@ -117,3 +115,5 @@ LibName75=video
 LibName76=Xicor
 LibName77=Zilog
 LibName78=ReST-cache
+[general]
+version=1
