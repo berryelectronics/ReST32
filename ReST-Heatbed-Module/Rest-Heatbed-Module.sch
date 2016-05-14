@@ -204,34 +204,34 @@ $EndComp
 $Comp
 L +5V #PWR05
 U 1 1 56A6A1BB
-P 4250 2600
-F 0 "#PWR05" H 4250 2450 50  0001 C CNN
-F 1 "+5V" H 4250 2740 50  0000 C CNN
-F 2 "" H 4250 2600 50  0000 C CNN
-F 3 "" H 4250 2600 50  0000 C CNN
-	1    4250 2600
-	-1   0    0    1   
+P 4400 2500
+F 0 "#PWR05" H 4400 2350 50  0001 C CNN
+F 1 "+5V" H 4400 2640 50  0000 C CNN
+F 2 "" H 4400 2500 50  0000 C CNN
+F 3 "" H 4400 2500 50  0000 C CNN
+	1    4400 2500
+	1    0    0    -1  
 $EndComp
 $Comp
 L +3V3 #PWR06
 U 1 1 56A6A1DD
-P 5300 2600
-F 0 "#PWR06" H 5300 2450 50  0001 C CNN
-F 1 "+3V3" H 5300 2740 50  0000 C CNN
-F 2 "" H 5300 2600 50  0000 C CNN
-F 3 "" H 5300 2600 50  0000 C CNN
-	1    5300 2600
-	-1   0    0    1   
+P 5100 2500
+F 0 "#PWR06" H 5100 2350 50  0001 C CNN
+F 1 "+3V3" H 5100 2640 50  0000 C CNN
+F 2 "" H 5100 2500 50  0000 C CNN
+F 3 "" H 5100 2500 50  0000 C CNN
+	1    5100 2500
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR07
 U 1 1 56A6A1FF
-P 4700 3000
-F 0 "#PWR07" H 4700 2750 50  0001 C CNN
-F 1 "GND" H 4700 2850 50  0000 C CNN
-F 2 "" H 4700 3000 50  0000 C CNN
-F 3 "" H 4700 3000 50  0000 C CNN
-	1    4700 3000
+P 4400 2900
+F 0 "#PWR07" H 4400 2650 50  0001 C CNN
+F 1 "GND" H 4400 2750 50  0000 C CNN
+F 2 "" H 4400 2900 50  0000 C CNN
+F 3 "" H 4400 2900 50  0000 C CNN
+	1    4400 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -394,123 +394,11 @@ Text Notes 6050 2100 0    39   ~ 0
 Heatbed Thermistor
 Text Label 6750 3750 0    39   ~ 0
 T0
-Wire Wire Line
-	3150 2600 3350 2600
-Wire Wire Line
-	3350 2600 3350 2700
-Wire Wire Line
-	6350 3000 6350 2550
-Wire Wire Line
-	6450 2550 6450 3000
-Wire Wire Line
-	6400 3400 6400 3300
-Wire Wire Line
-	6550 3000 6550 3750
-Wire Wire Line
-	6400 3750 6750 3750
-Wire Wire Line
-	6400 3700 6400 3800
-Connection ~ 6400 3750
-Wire Wire Line
-	6400 4100 6400 4150
-Wire Wire Line
-	6400 4150 6250 4150
-Wire Wire Line
-	6250 3000 6250 4200
-Wire Wire Line
-	6450 3000 6550 3000
-Wire Wire Line
-	6250 3000 6350 3000
-Connection ~ 6250 4150
-Connection ~ 6550 3750
-Wire Wire Line
-	7850 3850 8050 3850
-Wire Wire Line
-	7950 3850 7950 3750
-Connection ~ 7950 3850
-Wire Wire Line
-	7950 3450 7950 3350
-Wire Wire Line
-	8350 4150 8350 4050
-Wire Wire Line
-	8350 3450 8350 3650
-Wire Wire Line
-	8350 2850 8350 3150
-Wire Wire Line
-	8450 3550 8350 3550
-Connection ~ 8350 3550
-Wire Wire Line
-	8750 3550 9350 3550
-Wire Wire Line
-	9650 3950 9650 3750
-Wire Wire Line
-	3150 2500 3200 2500
-Wire Wire Line
-	3400 2500 3650 2500
-Wire Wire Line
-	3650 2500 3650 2400
-Wire Wire Line
-	9650 2950 9650 3350
-Wire Wire Line
-	9950 2750 9750 2750
-Wire Wire Line
-	9750 2750 9750 2650
-Wire Wire Line
-	9750 2650 9550 2650
-Wire Wire Line
-	9950 2850 9750 2850
-Wire Wire Line
-	9750 2850 9750 2950
-Wire Wire Line
-	9750 2950 9550 2950
-Wire Wire Line
-	9650 2450 9650 2650
-Connection ~ 9650 2650
-Connection ~ 9650 2950
-Wire Wire Line
-	9100 2950 9100 3250
-Wire Wire Line
-	9100 2950 8900 2950
-Wire Wire Line
-	8600 2950 8350 2950
-Connection ~ 8350 2950
-Wire Notes Line
-	4100 2150 4100 3350
-Wire Notes Line
-	4100 2150 5750 2150
-Wire Notes Line
-	5750 2150 5750 3350
-Wire Notes Line
-	5750 3350 4100 3350
-Wire Notes Line
-	2750 2150 2750 2950
-Wire Notes Line
-	2750 2150 3800 2150
-Wire Notes Line
-	3800 2150 3800 2950
-Wire Notes Line
-	3800 2950 2750 2950
-Wire Notes Line
-	6050 2150 6050 4450
-Wire Notes Line
-	6050 4450 6950 4450
-Wire Notes Line
-	6950 4450 6950 2150
-Wire Notes Line
-	6950 2150 6050 2150
-Wire Notes Line
-	7250 2200 10400 2200
-Wire Notes Line
-	10400 2200 10400 4450
-Wire Notes Line
-	10400 4450 7250 4450
-Wire Notes Line
-	7250 4450 7250 2200
 Text Label 7850 3850 2    39   ~ 0
 PWM-HEATBED
-Text Label 5150 2500 0    39   ~ 0
+Text Label 5000 2700 0    39   ~ 0
 PWM-HEATBED
-Text Label 4250 2500 2    39   ~ 0
+Text Label 5000 2800 0    39   ~ 0
 T0
 $Comp
 L +12V #PWR013
@@ -600,6 +488,144 @@ F 3 "" H 2900 3900 50  0000 C CNN
 	1    2900 3900
 	1    0    0    -1  
 $EndComp
+Text Notes 2750 2100 0    39   ~ 0
+High Power Input
+Text Notes 4100 2100 0    39   ~ 0
+Connector ReST\n
+Text Notes 2650 3550 0    39   ~ 0
+Power Definitions
+$Comp
+L CONN_02X03 P2
+U 1 1 572F92E1
+P 4750 2700
+F 0 "P2" H 4750 2900 50  0000 C CNN
+F 1 "CONN_02X03" H 4750 2500 50  0000 C CNN
+F 2 "ReST-Library:bb02-hp06" H 4750 1500 50  0001 C CNN
+F 3 "" H 4750 1500 50  0000 C CNN
+	1    4750 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L D_Small D3
+U 1 1 57364913
+P 3650 2600
+F 0 "D3" H 3600 2680 50  0000 L CNN
+F 1 "D_Small" H 3500 2520 50  0000 L CNN
+F 2 "ReST-Library:DO-214AC.SMA" V 3650 2600 50  0001 C CNN
+F 3 "" V 3650 2600 50  0000 C CNN
+	1    3650 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 2600 3350 2600
+Wire Wire Line
+	3350 2600 3350 2700
+Wire Wire Line
+	6350 3000 6350 2550
+Wire Wire Line
+	6450 2550 6450 3000
+Wire Wire Line
+	6400 3400 6400 3300
+Wire Wire Line
+	6550 3000 6550 3750
+Wire Wire Line
+	6400 3750 6750 3750
+Wire Wire Line
+	6400 3700 6400 3800
+Connection ~ 6400 3750
+Wire Wire Line
+	6400 4100 6400 4150
+Wire Wire Line
+	6400 4150 6250 4150
+Wire Wire Line
+	6250 3000 6250 4200
+Wire Wire Line
+	6450 3000 6550 3000
+Wire Wire Line
+	6250 3000 6350 3000
+Connection ~ 6250 4150
+Connection ~ 6550 3750
+Wire Wire Line
+	7850 3850 8050 3850
+Wire Wire Line
+	7950 3850 7950 3750
+Connection ~ 7950 3850
+Wire Wire Line
+	7950 3450 7950 3350
+Wire Wire Line
+	8350 4150 8350 4050
+Wire Wire Line
+	8350 3450 8350 3650
+Wire Wire Line
+	8350 2850 8350 3150
+Wire Wire Line
+	8450 3550 8350 3550
+Connection ~ 8350 3550
+Wire Wire Line
+	8750 3550 9350 3550
+Wire Wire Line
+	9650 3950 9650 3750
+Wire Wire Line
+	3150 2500 3200 2500
+Wire Wire Line
+	3400 2500 3650 2500
+Wire Wire Line
+	3650 2500 3650 2400
+Wire Wire Line
+	9650 2950 9650 3350
+Wire Wire Line
+	9950 2750 9750 2750
+Wire Wire Line
+	9750 2750 9750 2650
+Wire Wire Line
+	9750 2650 9550 2650
+Wire Wire Line
+	9950 2850 9750 2850
+Wire Wire Line
+	9750 2850 9750 2950
+Wire Wire Line
+	9750 2950 9550 2950
+Wire Wire Line
+	9650 2450 9650 2650
+Connection ~ 9650 2650
+Connection ~ 9650 2950
+Wire Wire Line
+	9100 2950 9100 3250
+Wire Wire Line
+	9100 2950 8900 2950
+Wire Wire Line
+	8600 2950 8350 2950
+Connection ~ 8350 2950
+Wire Notes Line
+	4100 2150 4100 3350
+Wire Notes Line
+	4100 2150 5750 2150
+Wire Notes Line
+	5750 2150 5750 3350
+Wire Notes Line
+	5750 3350 4100 3350
+Wire Notes Line
+	2750 2150 2750 3050
+Wire Notes Line
+	2750 2150 3800 2150
+Wire Notes Line
+	3800 2150 3800 3050
+Wire Notes Line
+	6050 2150 6050 4450
+Wire Notes Line
+	6050 4450 6950 4450
+Wire Notes Line
+	6950 4450 6950 2150
+Wire Notes Line
+	6950 2150 6050 2150
+Wire Notes Line
+	7250 2200 10400 2200
+Wire Notes Line
+	10400 2200 10400 4450
+Wire Notes Line
+	10400 4450 7250 4450
+Wire Notes Line
+	7250 4450 7250 2200
 Wire Wire Line
 	2900 4000 2900 3900
 Wire Wire Line
@@ -616,47 +642,39 @@ Wire Notes Line
 	4450 4300 2650 4300
 Wire Notes Line
 	2650 4300 2650 3600
-Text Notes 2750 2100 0    39   ~ 0
-High Power Input
-Text Notes 4100 2100 0    39   ~ 0
-Connector ReST\n
-Text Notes 2650 3550 0    39   ~ 0
-Power Definitions
-Wire Wire Line
-	4700 3000 4700 2950
-Wire Wire Line
-	4350 2950 5050 2950
-Wire Wire Line
-	4350 2950 4350 2700
-Wire Wire Line
-	4350 2700 4450 2700
-Wire Wire Line
-	5050 2950 5050 2700
-Wire Wire Line
-	5050 2700 4950 2700
-Connection ~ 4700 2950
-Wire Wire Line
-	4950 2500 5150 2500
-Wire Wire Line
-	4450 2500 4250 2500
 Wire Wire Line
 	9100 3250 9150 3250
 Wire Wire Line
 	9550 3250 9650 3250
 Connection ~ 9650 3250
 $Comp
-L CONN_02X03 P2
-U 1 1 572F92E1
-P 4700 2600
-F 0 "P2" H 4700 2800 50  0000 C CNN
-F 1 "CONN_02X03" H 4700 2400 50  0000 C CNN
-F 2 "ReST-Library:bb02-hp06" H 4700 1400 50  0001 C CNN
-F 3 "" H 4700 1400 50  0000 C CNN
-	1    4700 2600
+L GND #PWR021
+U 1 1 57364EE1
+P 3650 2800
+F 0 "#PWR021" H 3650 2550 50  0001 C CNN
+F 1 "GND" H 3650 2650 50  0000 C CNN
+F 2 "" H 3650 2800 50  0000 C CNN
+F 3 "" H 3650 2800 50  0000 C CNN
+	1    3650 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 2600 4450 2600
+	3650 2800 3650 2700
+Wire Notes Line
+	3800 3050 2750 3050
 Wire Wire Line
-	5300 2600 4950 2600
+	4500 2600 4400 2600
+Wire Wire Line
+	4400 2600 4400 2500
+Wire Wire Line
+	4500 2700 4400 2700
+Wire Wire Line
+	4400 2700 4400 2900
+Wire Wire Line
+	4400 2800 4500 2800
+Connection ~ 4400 2800
+Wire Wire Line
+	5000 2600 5100 2600
+Wire Wire Line
+	5100 2600 5100 2500
 $EndSCHEMATC

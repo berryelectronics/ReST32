@@ -68,12 +68,12 @@ $EndComp
 $Comp
 L GND #PWR02
 U 1 1 56DAB648
-P 950 1200
-F 0 "#PWR02" H 950 950 50  0001 C CNN
-F 1 "GND" H 950 1050 50  0000 C CNN
-F 2 "" H 950 1200 50  0000 C CNN
-F 3 "" H 950 1200 50  0000 C CNN
-	1    950  1200
+P 1750 1600
+F 0 "#PWR02" H 1750 1350 50  0001 C CNN
+F 1 "GND" H 1750 1450 50  0000 C CNN
+F 2 "" H 1750 1600 50  0000 C CNN
+F 3 "" H 1750 1600 50  0000 C CNN
+	1    1750 1600
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -131,13 +131,13 @@ F 3 "" H 3100 2500 50  0000 C CNN
 	1    3100 2500
 	1    0    0    -1  
 $EndComp
-Text Label 1050 1700 2    39   ~ 0
+Text Label 1050 1500 2    39   ~ 0
 PWM-ADD3
-Text Label 1050 1800 2    39   ~ 0
+Text Label 1050 1600 2    39   ~ 0
 PWM-ADD1
-Text Label 1550 1700 0    39   ~ 0
+Text Label 1050 1300 2    39   ~ 0
 PWM-ADD2
-Text Label 1550 1800 0    39   ~ 0
+Text Label 1050 1400 2    39   ~ 0
 PWM-ADD0
 $Comp
 L R_Small R1
@@ -342,19 +342,6 @@ Wire Wire Line
 	1550 1300 1650 1300
 Connection ~ 1650 1300
 Wire Wire Line
-	950  1200 950  1600
-Wire Wire Line
-	950  1600 1050 1600
-Wire Wire Line
-	1050 1500 950  1500
-Connection ~ 950  1500
-Wire Wire Line
-	1050 1400 950  1400
-Connection ~ 950  1400
-Wire Wire Line
-	1050 1300 950  1300
-Connection ~ 950  1300
-Wire Wire Line
 	2300 1350 2300 1150
 Wire Wire Line
 	2650 1150 2650 1350
@@ -497,4 +484,13 @@ Connection ~ 1800 2750
 Wire Wire Line
 	1800 2950 1700 2950
 Connection ~ 1800 2850
+Wire Wire Line
+	1750 1800 1750 1600
+Wire Wire Line
+	1050 1700 1750 1700
+Connection ~ 1550 1700
+Wire Wire Line
+	1050 1800 1750 1800
+Connection ~ 1750 1700
+Connection ~ 1550 1800
 $EndSCHEMATC
