@@ -355,11 +355,11 @@ F 3 "" H 6700 1650 50  0000 C CNN
 	1    6700 1650
 	1    0    0    -1  
 $EndComp
-Text Label 10600 2900 0    39   ~ 0
+Text Label 10650 6800 0    39   ~ 0
 X-DIR
-Text Label 10600 3000 0    39   ~ 0
+Text Label 10650 6900 0    39   ~ 0
 X-STEP
-Text Label 10600 3600 0    39   ~ 0
+Text Label 10650 7500 0    39   ~ 0
 X-EN
 $Comp
 L +12V #PWR020
@@ -504,11 +504,11 @@ F 3 "" H 9200 4800 50  0000 C CNN
 	1    9200 4800
 	-1   0    0    1   
 $EndComp
-Text Label 10600 4900 0    39   ~ 0
+Text Label 10600 2900 0    39   ~ 0
 Y-DIR
-Text Label 10600 5000 0    39   ~ 0
+Text Label 10600 3000 0    39   ~ 0
 Y-STEP
-Text Label 10600 5600 0    39   ~ 0
+Text Label 10600 3600 0    39   ~ 0
 Y-EN
 $Comp
 L +12V #PWR028
@@ -813,11 +813,11 @@ F 3 "" H 9250 6700 50  0000 C CNN
 	1    9250 6700
 	-1   0    0    1   
 $EndComp
-Text Label 10650 6800 0    39   ~ 0
+Text Label 10600 4900 0    39   ~ 0
 E0-DIR
-Text Label 10650 6900 0    39   ~ 0
+Text Label 10600 5000 0    39   ~ 0
 E0-STEP
-Text Label 10650 7500 0    39   ~ 0
+Text Label 10600 5600 0    39   ~ 0
 E0-EN
 $Comp
 L CONN_01X03 P28
@@ -1068,13 +1068,13 @@ F 3 "" H 12050 1350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 5000 5450 0    39   ~ 0
-USBDM
+USB-
 Text Label 5000 5550 0    39   ~ 0
-USBDP
+USB+
 Text Label 12350 1350 0    39   ~ 0
-USBDM
+USB-
 Text Label 12350 1250 0    39   ~ 0
-USBDP
+USB+
 $Comp
 L GND #PWR050
 U 1 1 56B96A2F
@@ -1291,9 +1291,9 @@ Text Label 2000 8550 2    39   ~ 0
 SPI-CS2
 Text Label 2000 8650 2    39   ~ 0
 LCD-RD
-Text Label 5000 8950 0    39   ~ 0
+Text Label 2000 6350 2    39   ~ 0
 EXTRA8
-Text Label 2000 7950 2    39   ~ 0
+Text Label 2000 6050 2    39   ~ 0
 EXTRA9
 Text Label 5700 6650 0    39   ~ 0
 I2C-SCL
@@ -1349,41 +1349,41 @@ Text Label 14900 5100 0    39   ~ 0
 I2C-SDA
 Text Label 2000 6450 2    39   ~ 0
 Z-MAX
-Text Label 2000 6150 2    39   ~ 0
+Text Label 2000 7750 2    39   ~ 0
 X-DIR
-Text Label 2000 6250 2    39   ~ 0
+Text Label 2000 7850 2    39   ~ 0
 X-STEP
-Text Label 2000 6350 2    39   ~ 0
+Text Label 2000 7950 2    39   ~ 0
 X-EN
-Text Label 5000 6850 0    39   ~ 0
-Y-DIR
-Text Label 5000 6950 0    39   ~ 0
-Y-STEP
-Text Label 2000 6050 2    39   ~ 0
-Y-EN
 Text Label 2000 8050 2    39   ~ 0
-Z-DIR
+Y-DIR
 Text Label 2000 8150 2    39   ~ 0
-Z-STEP
+Y-STEP
 Text Label 2000 8250 2    39   ~ 0
-Z-EN
-Text Label 2000 8350 2    39   ~ 0
-E0-DIR
-Text Label 2000 8450 2    39   ~ 0
-E0-STEP
+Y-EN
 Text Label 5000 6550 0    39   ~ 0
+Z-DIR
+Text Label 2000 8450 2    39   ~ 0
+Z-STEP
+Text Label 2000 8350 2    39   ~ 0
+Z-EN
+Text Label 5000 8750 0    39   ~ 0
+E0-DIR
+Text Label 5000 8850 0    39   ~ 0
+E0-STEP
+Text Label 5000 8950 0    39   ~ 0
 E0-EN
-Text Label 5000 8050 0    39   ~ 0
-E1-DIR
-Text Label 5000 4350 0    39   ~ 0
-E1-STEP
-Text Label 5000 4450 0    39   ~ 0
-E1-EN
 Text Label 5000 4550 0    39   ~ 0
-E2-DIR
+E1-DIR
 Text Label 5000 4650 0    39   ~ 0
-E2-STEP
+E1-STEP
 Text Label 5000 4750 0    39   ~ 0
+E1-EN
+Text Label 5000 8050 0    39   ~ 0
+E2-DIR
+Text Label 5000 4350 0    39   ~ 0
+E2-STEP
+Text Label 5000 4450 0    39   ~ 0
 E2-EN
 Text Label 2000 9150 2    39   ~ 0
 EXTRA0
@@ -1393,9 +1393,9 @@ Text Label 5000 8650 0    39   ~ 0
 EXTRA2
 Text Label 5000 5150 0    39   ~ 0
 EXTRA3
-Text Label 5000 8750 0    39   ~ 0
+Text Label 5000 6850 0    39   ~ 0
 EXTRA4
-Text Label 5000 8850 0    39   ~ 0
+Text Label 5000 6950 0    39   ~ 0
 EXTRA5
 Text Label 2000 6750 2    39   ~ 0
 LCD-D0
@@ -1798,23 +1798,23 @@ $EndComp
 $Comp
 L R_Small R12
 U 1 1 56D29E83
-P 5300 6550
-F 0 "R12" H 5330 6570 50  0000 L CNN
-F 1 "4K7" H 5330 6510 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 5300 6550 50  0001 C CNN
-F 3 "" H 5300 6550 50  0000 C CNN
-	1    5300 6550
+P 5500 6600
+F 0 "R12" H 5530 6620 50  0000 L CNN
+F 1 "4K7" H 5530 6560 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5500 6600 50  0001 C CNN
+F 3 "" H 5500 6600 50  0000 C CNN
+	1    5500 6600
 	1    0    0    1   
 $EndComp
 $Comp
 L R_Small R13
 U 1 1 56D2B222
-P 5500 6600
-F 0 "R13" H 5530 6620 50  0000 L CNN
-F 1 "4K7" H 5530 6560 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 5500 6600 50  0001 C CNN
-F 3 "" H 5500 6600 50  0000 C CNN
-	1    5500 6600
+P 5300 6550
+F 0 "R13" H 5330 6570 50  0000 L CNN
+F 1 "4K7" H 5330 6510 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5300 6550 50  0001 C CNN
+F 3 "" H 5300 6550 50  0000 C CNN
+	1    5300 6550
 	1    0    0    1   
 $EndComp
 $Comp
@@ -2324,9 +2324,9 @@ F 3 "" H 13150 8050 50  0000 C CNN
 	1    13150 8050
 	1    0    0    -1  
 $EndComp
-Text Label 2000 7850 2    39   ~ 0
+Text Label 2000 6150 2    39   ~ 0
 EXTRA10
-Text Label 2000 7750 2    39   ~ 0
+Text Label 2000 6250 2    39   ~ 0
 EXTRA11
 $Comp
 L CONN_02X03 P17
@@ -3936,4 +3936,8 @@ Wire Wire Line
 Wire Wire Line
 	13300 3550 13150 3550
 Connection ~ 13300 3450
+Text Label 10600 1250 0    39   ~ 0
+USB_D+
+Text Label 10550 1350 0    39   ~ 0
+USB_D-
 $EndSCHEMATC
