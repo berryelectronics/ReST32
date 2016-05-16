@@ -677,4 +677,56 @@ Wire Wire Line
 	5000 2600 5100 2600
 Wire Wire Line
 	5100 2600 5100 2500
+$Comp
+L CONN_02X02 P6
+U 1 1 5739BD0D
+P 5100 5250
+F 0 "P6" H 5100 5400 50  0000 C CNN
+F 1 "CONN_02X02" H 5100 5100 50  0000 C CNN
+F 2 "ReST-Library:bb02-hp04" H 5100 4050 50  0001 C CNN
+F 3 "" H 5100 4050 50  0000 C CNN
+	1    5100 5250
+	1    0    0    -1  
+$EndComp
+Text Label 9650 3150 0    60   ~ 0
+MOSFET
+Text Label 4750 5200 2    60   ~ 0
+MOSFET
+Wire Wire Line
+	4750 5200 4850 5200
+Wire Wire Line
+	4850 5300 4800 5300
+Wire Wire Line
+	4800 5300 4800 5200
+Connection ~ 4800 5200
+$Comp
+L GND #PWR022
+U 1 1 5739C9F0
+P 5450 5300
+F 0 "#PWR022" H 5450 5050 50  0001 C CNN
+F 1 "GND" H 5450 5150 50  0000 C CNN
+F 2 "" H 5450 5300 50  0000 C CNN
+F 3 "" H 5450 5300 50  0000 C CNN
+	1    5450 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 5300 5450 5300
+Wire Wire Line
+	5400 5300 5400 5200
+Wire Wire Line
+	5400 5200 5350 5200
+Connection ~ 5400 5300
+Wire Notes Line
+	4400 5000 5550 5000
+Wire Notes Line
+	5550 5000 5550 5500
+Wire Notes Line
+	5550 5500 4400 5500
+Wire Notes Line
+	4400 5500 4400 5000
+Text Notes 4400 4950 0    60   ~ 0
+Mechanical strenght
+Text Label 3200 2500 1    39   ~ 0
+12V-R
 $EndSCHEMATC

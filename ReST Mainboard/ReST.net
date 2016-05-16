@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:\\Users\\matthias\\Documents\\Git\\ReST32\\ReST Mainboard\\ReST.sch")
-    (date "16.05.2016 02:49:24")
+    (source "C:/Users/matthias/Documents/Git/ReST32/ReST Mainboard/ReST.sch")
+    (date "16.05.2016 17:34:52")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -335,7 +335,7 @@
       (tstamp 56D23847))
     (comp (ref U3)
       (value L7805ACD2T-TR)
-      (footprint TO_SOT_Packages_SMD:SOT-404)
+      (footprint ReST-Library:SOT-404)
       (libsource (lib regul) (part LM117H))
       (sheetpath (names /) (tstamps /))
       (tstamp 56D0605D))
@@ -992,10 +992,10 @@
         (pin (num 5) (name GND) (type power_in))
         (pin (num 6) (name shield) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical regul)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\regul.lib"))
     (library (logical stm32)

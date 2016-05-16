@@ -1095,7 +1095,7 @@ F 1 "CONN_01X02" V 7100 10700 50  0000 C CNN
 F 2 "ReST-Library:screw-5-2P" H 7000 10700 50  0001 C CNN
 F 3 "" H 7000 10700 50  0000 C CNN
 	1    7000 10700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L F_Small F1
@@ -3246,12 +3246,12 @@ Wire Wire Line
 Wire Wire Line
 	900  4250 900  4350
 Wire Wire Line
-	1800 4250 1800 3900
+	1800 3900 1800 4350
 Wire Wire Line
 	1800 3900 1450 3900
 Connection ~ 1800 4250
 Wire Wire Line
-	1000 4250 1000 3900
+	1000 3900 1000 4350
 Wire Wire Line
 	1000 3900 1250 3900
 Connection ~ 1000 4250
@@ -3995,16 +3995,18 @@ F 3 "" H 12850 7800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_DIP_x2 S?
+L SW_DIP_x2 S1
 U 1 1 573D566C
 P 1400 4300
-F 0 "S?" H 1400 4150 50  0000 C CNN
+F 0 "S1" H 1400 4150 50  0000 C CNN
 F 1 "SW_DIP_x2" H 1400 4450 50  0000 C CNN
-F 2 "" H 1350 4300 50  0000 C CNN
+F 2 "ReST-Library:SMD-BUTTON-6MM" H 1350 4300 50  0001 C CNN
 F 3 "" H 1350 4300 50  0000 C CNN
 	1    1400 4300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
-NoConn ~ 1100 4350
-NoConn ~ 1700 4350
+Wire Wire Line
+	1800 4350 1700 4350
+Wire Wire Line
+	1000 4350 1100 4350
 $EndSCHEMATC
