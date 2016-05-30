@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F10x/STM32F4x
+D 32-bit ARM Cortex-M3 Microcontroller, 72MHz, 256KB Flash, 48KB RAM, USB, CAN, LQFP100
+K STM32 ARM Cortex-M3 MCU
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+#End Doc Library
