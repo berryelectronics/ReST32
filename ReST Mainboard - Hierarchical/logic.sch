@@ -634,9 +634,9 @@ $EndComp
 Text Notes 8750 -50  0    39   ~ 0
 USB INTERFACE
 Text Label 9150 450  0    39   ~ 0
-USB_D+
+USBP_D+
 Text Label 9100 550  0    39   ~ 0
-USB_D-
+USBP_D-
 Text Label 10500 450  1    39   ~ 0
 USBR+
 Text Label 10500 550  3    39   ~ 0
@@ -819,9 +819,9 @@ SPI_SCK
 Text GLabel 6700 1050 2    39   Input ~ 0
 SPI_CS0
 Text GLabel 6700 1850 2    39   Input ~ 0
-USB_DP_+
+USB_MCU+
 Text GLabel 6700 1750 2    39   Input ~ 0
-USB_DM_-
+USB_MCU-
 $Comp
 L AT24C256 IC1
 U 1 1 5779EE00
@@ -838,9 +838,9 @@ BOOT_0
 Text GLabel 3400 200  1    39   Input ~ 0
 RESET
 Text GLabel 10900 450  2    39   Input ~ 0
-USB_DP_+
+USB_MCU+
 Text GLabel 10900 550  2    39   Input ~ 0
-USB_DM_-
+USB_MCU-
 Text GLabel 3700 1550 0    39   Input ~ 0
 P_VCAP_2
 Text GLabel 5000 5950 3    39   Input ~ 0

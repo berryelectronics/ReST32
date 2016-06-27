@@ -100,7 +100,7 @@ F 1 "CONN_01X02" V 5100 5450 50  0000 C CNN
 F 2 "ReST-Library:screw-5-2P" H 5000 5450 50  0001 C CNN
 F 3 "" H 5000 5450 50  0000 C CNN
 	1    5000 5450
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L F_Small F1
@@ -414,7 +414,7 @@ F 1 "CONN_01X02" V 6650 5450 50  0000 C CNN
 F 2 "ReST-Library:screw-5-2P" H 6550 5450 50  0001 C CNN
 F 3 "" H 6550 5450 50  0000 C CNN
 	1    6550 5450
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L F_Small F2

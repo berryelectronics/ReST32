@@ -146,7 +146,7 @@ F 1 "CONN_02X03" H 6450 2650 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 6450 1650 50  0001 C CNN
 F 3 "" H 6450 1650 50  0000 C CNN
 	1    6450 2850
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_02X03 P25
