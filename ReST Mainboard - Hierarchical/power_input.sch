@@ -132,10 +132,10 @@ U 1 1 5777F62A
 P 5200 3650
 F 0 "P2" H 5200 3850 50  0000 C CNN
 F 1 "CONN_01X03" V 5300 3650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 5200 3650 50  0001 C CNN
+F 2 "ReST-Library:bb02-hy03a" H 5200 3650 50  0001 C CNN
 F 3 "" H 5200 3650 50  0000 C CNN
 	1    5200 3650
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 $Comp
 L +5V #PWR036
