@@ -1153,8 +1153,6 @@ Wire Notes Line
 Wire Notes Line
 	9800 1550 9800 4150
 Wire Notes Line
-	7700 1550 7700 4150
-Wire Notes Line
 	8400 1550 8400 4150
 Wire Notes Line
 	9100 1550 9100 4150
@@ -1257,9 +1255,11 @@ F 3 "" H 6350 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3850 2250 1    39   ~ 0
-H2_GATE
+H0_GATE
 Text Label 3850 3600 1    39   ~ 0
 H1_GATE
 Text Label 3850 4950 1    39   ~ 0
 H2_GATE
+Wire Notes Line
+	7700 1550 7700 4150
 $EndSCHEMATC
