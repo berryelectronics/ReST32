@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name ReST-Library)(type Github)(uri https://github.com/berryelectronics/ReST-Library.pretty)(options "")(descr "ReST32 Library"))
-)

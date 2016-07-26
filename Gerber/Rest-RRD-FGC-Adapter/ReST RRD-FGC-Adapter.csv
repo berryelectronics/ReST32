@@ -1,0 +1,9 @@
+"ID";"Bezeichner";"Gehäuse";"Stückzahl";"Bezeichnung";"Anbieter und Ref.";
+1;"REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**";"1pin";21;"1pin";;;
+2;"P4,P3";"IDC_Header_Straight_10pins";2;"CONN_02X05";;;
+3;"C1";"TantalC_SizeA_EIA-3216_HandSoldering";1;"2.2uF";;;
+4;"Q1,Q2,Q3,Q4";"SOT-23_Handsoldering";4;"BSS138";;;
+5;"R1,R2,R3,R4,R5,R6,R7,R8";"R_0805_HandSoldering";8;"10K";;;
+6;"U1";"SOT-23-5";1;"MIC5205";;;
+7;"P1,P2";"Pin_Header_Straight_2x05";2;"CONN_02X05";;;
+8;"G***";"Logo_silk_OSHW_6x6mm";1;"LOGO";;;

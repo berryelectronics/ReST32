@@ -1,0 +1,9 @@
+"ID";"Bezeichner";"Gehäuse";"Stückzahl";"Bezeichnung";"Anbieter und Ref.";
+1;"G***,G***";"Logo_silk_OSHW_6x6mm";2;"LOGO";;;
+2;"REF**,REF**,REF**,REF**,REF**,REF**";"1pin";6;"1pin";;;
+3;"C1";"TantalC_SizeA_EIA-3216_HandSoldering";1;"CP1_Small";;;
+4;"CON1,CON2";"SD_Card_Receptacle";2;"uSD_Card";;;
+5;"D1";"LED_1206";1;"Led_Small";;;
+6;"P1";"Pin_Header_Straight_2x05";1;"CONN_02X05";;;
+7;"R2";"R_0805_HandSoldering";1;"1K";;;
+8;"U1";"SOT-23-5";1;"MIC5205";;;
