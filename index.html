@@ -40,17 +40,72 @@ You can also use two thermistors heaters and heatbeds simultaniously, so that if
 Currently, there is a SD Card Adapter and an Adapter to use the popular RepRapDiscount Full Graphic Smart Controller.</p>
 
 <h3>
+<a id="modularity" class="anchor" href="#modularity" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Modularity</h3>
+
+<p>Instead of soldering the Stepper Drivers directly to the ReST32, using a Pololu Stepper Driver is much better, because you can change it out to suit your need or if something goes wrong.</p>
+
+<h3>
 <a id="features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h3>
 
+<ul>
+<li>STM32F103VET6 Cortex-M3 Microcontroller with 512KB Flash, 64KB SRAM running at 72MHz</li>
+<li>256Kb External EEPROM for Settings, etc.</li>
+<li>3 AOT240L for Heatbed and 2 Heaters</li>
+<li>5 Sockets for Pololu-style stepper motor drivers.</li>
+<li>2 Automotive mini fuses, one for the electronics and the steppers motors and another for the heatbed and the heaters.</li>
+<li>Reverse Polarity protection on the Power Inputs.</li>
+<li>12-24V Voltage Input</li>
+<li>1.5A on the 5V Rail, 1A on the 3.3V Rail, both of them are individually fused.</li>
+<li>4 Additional high load connectors for controllable fans, LEDS, etc.</li>
+<li>Extra Power Pins for the different Voltages to connect things to.</li>
+<li>6 Endstop Connectors</li>
+<li>6 Thermistor Connectors (for maximum redundancy)</li>
+<li>High Quality Buck Converters.</li>
+<li>ESD-Safe Micro USB Port</li>
+<li>Selectable Power Rail for the Electronics: External Power or the USB Port.</li>
+<li>ESP-01 Header to use it as an Webserver</li>
+<li>8 Extra GPIO to tinker with</li>
+<li>I2C, UART, SWD Pin headers.</li>
+</ul>
+
 <h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<a id="availability" class="anchor" href="#availability" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Availability</h3>
 
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>The board is currently in development. The next prototype is going to be ordered soon. If it works, then the first few Controllers are available. Here are photos of the Gerbers.</p>
+
+<p>Mainboard Front:
+<img src="http://puu.sh/qfrSq/35a3bdd032.png" alt="Mainboard Front"></p>
+
+<p>Mainboard Back:
+<img src="http://puu.sh/qfrUk/395e6d4ba2.png" alt="Mainboard Back"></p>
+
+<p>SD Card Front:
+<img src="http://puu.sh/qfrsa/337776318c.png" alt="SD Card Front"></p>
+
+<p>SD Card Back:
+<img src="http://puu.sh/qfrvV/5153e81b4c.png" alt="SD Card Back"></p>
+
+<p>RepRapDiscount FGD Adapter Front:
+<img src="http://puu.sh/qfrxZ/548dd6d2ee.png" alt="RepRapDiscount FGD Adapter Front"></p>
+
+<p>RepRapDiscount FGD Adapter Back:
+<img src="http://puu.sh/qfrBl/d048b72526.png" alt="RepRapDiscount FGD Adapter Back"></p>
 
 <h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+<a id="things-to-do" class="anchor" href="#things-to-do" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Things to do:</h3>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<ul>
+<li>Check if the board is working properly</li>
+<li>Make Marlin (or Marlin4Due) compatible with the stm32duino core.</li>
+<li>Development of a Full Color LCD (ILI9341)</li>
+</ul>
+
+<h3>
+<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h3>
+
+<p>Email: <a href="mailto:matthias.marcus.nowak@gmail.com">matthias.marcus.nowak@gmail.com</a>
+Github: <a href="https://github.com/berryelectronics" class="user-mention">@berryelectronics</a>
+Twitter: maker_berry</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/berryelectronics/ReST32">Rest32</a> is maintained by <a href="https://github.com/berryelectronics">berryelectronics</a>.</span>
