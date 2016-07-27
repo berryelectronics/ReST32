@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:\\Users\\matthias\\Documents\\Git\\ReST32\\ReST-SD-Module\\ReST SD-Module.sch")
-    (date "26.07.2016 16:24:40")
+    (source "C:/Users/matthias/Documents/Git/ReST32/ReST-SD-Module/ReST SD-Module.sch")
+    (date "27.07.2016 22:20:48")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref D1)
       (value Led_Small)
-      (footprint LEDs:LED_1206)
+      (footprint LEDs:LED_0805)
       (libsource (lib device) (part Led_Small))
       (sheetpath (names /) (tstamps /))
       (tstamp 56D5E515))
@@ -46,7 +46,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 56D35E94))
     (comp (ref C1)
-      (value CP1_Small)
+      (value 2.2uF)
       (footprint Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering)
       (libsource (lib device) (part CP1_Small))
       (sheetpath (names /) (tstamps /))
