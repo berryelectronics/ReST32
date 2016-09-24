@@ -74,7 +74,7 @@ F 1 "CONN_02X05" H 5050 4050 50  0000 C CNN
 F 2 "Connect:IDC_Header_Straight_10pins" H 5050 3150 50  0001 C CNN
 F 3 "" H 5050 3150 50  0000 C CNN
 	1    5050 4350
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_02X05 P4
@@ -85,7 +85,7 @@ F 1 "CONN_02X05" H 5050 4900 50  0000 C CNN
 F 2 "Connect:IDC_Header_Straight_10pins" H 5050 4000 50  0001 C CNN
 F 3 "" H 5050 4000 50  0000 C CNN
 	1    5050 5200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L PWR_FLAG #FLG01
@@ -774,4 +774,15 @@ Wire Wire Line
 	2500 4800 3350 4800
 NoConn ~ 2800 1450
 NoConn ~ 3300 1450
+$Comp
+L 74AHCT125 U?
+U 1 1 57E5CB20
+P 8250 4050
+F 0 "U?" H 8720 3840 60  0000 C CNN
+F 1 "74AHCT125" H 8710 4650 60  0000 C CNN
+F 2 "" H 8250 4050 60  0001 C CNN
+F 3 "" H 8250 4050 60  0001 C CNN
+	1    8250 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
