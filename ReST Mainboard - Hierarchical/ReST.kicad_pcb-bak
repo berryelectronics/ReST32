@@ -21,11 +21,11 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
-    (34 B.Paste user hide)
+    (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
     (37 F.SilkS user)
@@ -40,7 +40,7 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user)
-    (49 F.Fab user hide)
+    (49 F.Fab user)
   )
 
   (setup
@@ -79,12 +79,12 @@
     (mod_edge_width 0.15)
     (mod_text_size 0.75 0.75)
     (mod_text_width 0.1)
-    (pad_size 3.2 3.2)
-    (pad_drill 3.2)
+    (pad_size 0.89916 0.89916)
+    (pad_drill 0.89916)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 246.2 149.45)
     (grid_origin 104.45 160.45)
-    (visible_elements 7FFFFDFF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions true)
@@ -6477,7 +6477,7 @@
     )
   )
 
-  (module ReST-Library:USB_Mini-B (layer F.Cu) (tedit 57966F61) (tstamp 57769DA6)
+  (module ReST-Library:USB_Mini-B (layer F.Cu) (tedit 579A889E) (tstamp 57769DA6)
     (at 105.65 161.75 90)
     (descr "USB Mini-B 5-pin SMD connector")
     (tags "USB USB_B USB_Mini connector")
@@ -6517,8 +6517,8 @@
       (net 38 "Net-(P15-Pad6)"))
     (pad 6 smd rect (at -2.14884 4.45008 90) (size 2.49936 1.99898) (layers F.Cu F.Paste F.Mask)
       (net 38 "Net-(P15-Pad6)"))
-    (pad "" np_thru_hole circle (at 0.8509 -2.19964 90) (size 0.89916 0.89916) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
-    (pad "" np_thru_hole circle (at 0.8509 2.19964 90) (size 0.89916 0.89916) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
+    (pad "" thru_hole circle (at 0.8509 -2.19964 90) (size 0.89916 0.89916) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
+    (pad "" thru_hole circle (at 0.8509 2.19964 90) (size 0.89916 0.89916) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
   )
 
   (module ReST-Library:S_JUMPER_3 (layer B.Cu) (tedit 57973FD8) (tstamp 57769C72)
